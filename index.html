@@ -1,0 +1,289 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="An introduction about Social Engineering and how ">
+    <meta name="author" content="Carlson Orozco">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <title>Social Engineering - Exploiting Human Trust by Carlson Orozco</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/blood.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Top Slide -->
+        <section>
+          <h1>Social Engineering</h1>
+          <h3>Exploiting Human Trust</h3>
+          <p>
+            <small>by <a href="http://carlsonorozco.com">Carlson Orozco</a> / <a href="http://twitter.com/carlsonorozco">@carlsonorozco</a></small>
+          </p>
+        </section>
+
+        <!-- 1. Introduction -->
+        <section>
+          <h2>Hello</h2>
+          <p class="fragment roll-in">I'm Carlson Orozco</p>
+        </section>
+
+        <!-- 2. Definition of Social Engineering -->
+        <section>
+          <section>
+            <h2>What is Social Engineering?</h2>
+          </section>
+          <section>
+            <h3>Social Engineering</h3>
+            <p>Is a psycho-social attack used by attackers that subverts <span class="fragment highlight-blue">human trust</span> in efforts to get <span class="fragment highlight-red">information</span>.</p>
+          </section>
+        </section>
+
+        <!-- 3. How is it used? -->
+        <section>
+          <h3>How is it used?</h3>
+          <p class="fragment roll-in">• Communication with your family, boss, spouse and friends.</p>
+          <p class="fragment roll-in">• Breaching Companies</p>
+          <p class="fragment roll-in">• Stealing Data</p>
+          <p class="fragment roll-in">• Cyber Crime</p>
+          <p class="fragment roll-in">• Cyber Warfare</p>
+        </section>
+
+        <!-- 4. Two categories of attacks -->
+        <section>
+          <h3>Two categories of attacks</h3>
+          <p class="fragment roll-in">• Human based</p>
+          <p class="fragment roll-in">• Computer based</p>
+        </section>
+
+        <!-- 5. Human based social engineering -->
+        <section>
+          <section>
+            <p><strong class="fragment highlight-red">Human based</strong> social engineering needs person-to-person interaction then retrieving the desired information.</p>
+            <p class="fragment roll-in"><strong>Examples</strong></p>
+            <p class="fragment roll-in">• Impersonation</p>
+            <p class="fragment roll-in">• Posing as an important user</p>
+            <p class="fragment roll-in">• Being a third party</p>
+            <p class="fragment roll-in">• Desktop support</p>
+            <p class="fragment roll-in">• Shoulder surfing</p>
+            <p class="fragment roll-in">• Dumpster diving</p>
+          </section>
+          <section>
+            <p><strong class="fragment highlight-red">Impersonation</strong> - the hacker pretends to be an employee or valid user on the system. A hacker can gain physical access by pretending to be a janitor, employee, or contractor.</p>
+          </section>
+          <section>
+            <p><strong class="fragment highlight-red">Posing as an important user</strong> - the hacker pretends to be a VIP or high-level manager who has the authority to use computer systems or files. Most of the time, low-level employees don’t ask any questions of someone who appears in this position.</p>
+          </section>
+          <section>
+            <p><strong class="fragment highlight-red">Being a third party</strong> - the hacker pretends to have permission from an authorized person to use the computer system. It works when the authorized person is unavailable for some time.</p>
+          </section>
+          <section>
+            <p><strong class="fragment highlight-red">Desktop support</strong> - calling tech support for assistance is a classic social-engineering technique. Help desk and technical support personnel are trained to help users, which makes them good prey for social engineering attacks.</p>
+          </section>
+          <section>
+            <p><strong class="fragment highlight-red">Shoulder surfing</strong> - is the technique of gathering passwords by watching over a person’s shoulder while they log in to the system. A hacker can watch a valid user log in and then use that password to gain access to the system.</p>
+          </section>
+          <section>
+            <p><strong class="fragment highlight-red">Dumpster diving</strong> - dumpster diving involves looking in the trash for information written on pieces of paper or computer printouts. The hacker can often find passwords, filenames, or other pieces of confidential information.</p>
+            <blockquote class="fragment roll-in">
+              &ldquo;One man's trash is another man's treasure.&rdquo;
+            </blockquote>
+          </section>
+        </section>
+
+        <!-- 6. Computer based social engineering -->
+        <section>
+          <section>
+            <p><strong class="fragment highlight-red">Computer based</strong> social engineering uses computer software that attempts to retrieve the desired information.</p>
+            <p class="fragment roll-in"><strong>Examples</strong></p>
+            <p class="fragment roll-in">• Phishing</p>
+            <p class="fragment roll-in">• Baiting</p>
+            <p class="fragment roll-in">• On-line scams</p>
+          </section>
+          <section>
+            <p><strong class="fragment highlight-red">Phishing</strong> - usually sent via e-mail, indicating to the victim that something has happened. Once the victim opens the payload the attacker has access to the network.</p>
+          </section>
+          <section>
+            <p><strong class="fragment highlight-red">Baiting</strong> - baiting involves dangling something you want to entice you to take an action the criminal desires. It can be in the form of a music or movie download on a peer-to-peer site or it can be a USB flash drive with a company logo labeled “Executive Salary Summary Q1 2013″ left out in the open for you to find. Then, once the device is used or downloaded, the person or company’s computer is infected with malicious software allowing the criminal to advance into your system.</p>
+          </section>
+          <section>
+            <p><strong class="fragment highlight-red">On-line scams</strong> - emails sent by scammers may have attachments that include malicious code inside the attachment. Those attachments can include keyloggers to capture users’ passwords, viruses, Trojans, or worms. Sometimes pop-up windows can also be used in social engineering attacks. Pop-up windows that advertise special offers may tempt users to unintentionally install malicious software.</p>
+          </section>
+        </section>
+
+        <!-- 7. Social Engineer's mantra -->
+        <section>
+          <h2>Social Engineer's mantra</h2>
+          <blockquote class="fragment roll-in">
+            &ldquo;There is no patch for human stupidity.&rdquo;
+          </blockquote>
+        </section>
+
+        <!-- 8. Who is targeted -->
+        <section>
+          <section>
+            <h2>Who is targeted?</h2>
+          </section>
+          <section>
+            <h3>Everyone</h3>
+            <p class="fragment roll-in">Everyone with information</p>
+          </section>
+        </section>
+
+        <!-- 9. Statistics -->
+        <section>
+          <section>
+            <h2>Statistics</h2>
+          </section>
+          <section>
+            <p class="fragment roll-in">• 48% of enterprises have been victims of engineering attacks</p>
+            <p class="fragment roll-in">• 86% of IT and security professionals are aware of risks of social engineering</p>
+            <p class="fragment roll-in">• 75% success rate with social engineering phone calls to businesses</p>
+          </section>
+          <section>
+            <p class="fragment roll-in">• 107 Trillion emails sent yearly</p>
+            <p class="fragment roll-in">• 294 Billion emails sent daily</p>
+            <p class="fragment roll-in">• 90% of all emails are spam & virus</p>
+          </section>
+          <section>
+            <p class="fragment roll-in">• Phishing represents 77% of all socially-based attacks</p>
+            <p class="fragment roll-in">• In year 2013, 37.3 Million users reported phishing attacks.</p>
+          </section>
+          <section>
+            <p class="fragment roll-in">• Clicking links within email accounted for 88% of all reported phishing</p>
+            <p class="fragment roll-in">• Most common phishing attacks mimicked banking institution.</p>
+          </section>
+          <section>
+            <p class="fragment roll-in">• 1.8 Million Victims in 2013</p>
+            <p class="fragment roll-in">• Medical identity theft on the rise due to websites impersonating medical providers</p>
+          </section>
+          <section>
+            <p class="fragment roll-in">• Top place for theft is work area</p>
+            <p class="fragment roll-in">• 80% of thefts involved disabling or bypassing controls</p>
+            <p class="fragment roll-in">• 88% of reported stolen assets were personal data</p>
+          </section>
+          <section>
+            <p class="fragment roll-in">• Average victim of impersonation</p>
+            <p class="fragment roll-in">• 41.7 years old</p>
+            <p class="fragment roll-in">• $4,187 lost (~Php 187,033)</p>
+          </section>
+          <section>
+            <p class="fragment roll-in">• 2.4M customers targeted for phone fraud for all of 2012</p>
+            <p class="fragment roll-in">• 2.3M customers targeted for phone fraud for <strong>first half</strong> of 2013</p>
+            <p class="fragment roll-in">• Average loss for targeted businesses $42,546 (~Php 1,901,614)</p>
+          </section>
+          <section>
+            <p class="fragment roll-in">What do smishers ask for?</p>
+            <p class="fragment roll-in">• 14% reply to text</p>
+            <p class="fragment roll-in">• 26% call a number</p>
+            <p class="fragment roll-in">• 60% click a link</p>
+          </section>
+          <section>
+            <p class="fragment roll-in">• 60% of US adults who send and receive text messages received mobile spam in 2012</p>
+          </section>
+        </section>
+
+        <!-- 10. Prevention of Social Engineering Attacks -->
+        <section>
+          <section>
+            <h2>Prevention of Social Engineering Attacks</h2>
+          </section>
+          <section>
+            <p class="fragment roll-in">• Slow down</p>
+            <p class="fragment roll-in">• Research the facts</p>
+            <p class="fragment roll-in">• Delete any request for financial information or passwords</p>
+            <p class="fragment roll-in">• Reject requests for help or offers of help</p>
+            <p class="fragment roll-in">• Don’t let a link in control of where you land</p>
+            <p class="fragment roll-in">• Email hijacking is rampant</p>
+            <p class="fragment roll-in">• Beware of any download</p>
+          </section>
+          <section>
+            <p class="fragment roll-in">• Foreign offers are fake</p>
+            <p class="fragment roll-in">• Set your spam filters to high</p>
+            <p class="fragment roll-in">• Secure your computing devices</p>
+            <p class="fragment roll-in">• Use different logins for each service and secure your passwords</p>
+            <p class="fragment roll-in">• Use two-factor authentication</p>
+            <p class="fragment roll-in">• Get creative with security questions</p>
+            <p class="fragment roll-in">• Use credit cards wisely</p>
+          </section>
+        </section>
+
+        <!-- 11. Conclusions -->
+        <section>
+          <h2>Conclusions</h2>
+          <p class="fragment roll-in">• The security risks of social engineering are significant</p>
+          <p class="fragment roll-in">• Organizations must address social-engineering threats as part of an overall risk-management strategy</p>
+          <p class="fragment roll-in">• Realistic prevention is hard</p>
+        </section>
+
+        <!-- 12. Quote -->
+        <section>
+          <blockquote class="fragment roll-in">
+            &ldquo;It is impossible to work in information technology without also engaging in social engineering. ~Jaron Lanier&rdquo;
+          </blockquote>
+        </section>
+
+        <!-- 13. Questions -->
+        <section>
+          <h2>Questions?</h2>
+        </section>
+
+        <!-- 14. End -->
+        <section>
+          <h1>End</h1>
+        </section>
+
+        <!-- 15. References -->
+        <section>
+          <h4>References</h4>
+          <small>- http://www.slideshare.net/vinaypatel17/social-engineering-25919181</small>
+          <small>- http://www.slideshare.net/JamesKrusic/social-engineeringattack-of-the-human-behavior</small>
+          <small>- https://www.veracode.com/blog/2013/03/hacking-the-mind-how-why-social-engineering-works</small>
+          <small>- http://resources.infosecinstitute.com/social-engineering-a-hacking-story/</small>
+          <small>- http://www.webroot.com/gb/en/home/resources/tips/online-shopping-banking/secure-what-is-social-engineering</small>
+          <small>- http://www.npdn.org/social_engineering_types</small>
+          <small>- http://www.social-engineer.org/social-engineering/social-engineering-infographic/</small>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+  </body>
+</html>
